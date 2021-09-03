@@ -1,0 +1,176 @@
+.wrapper_product {
+  position: relative;
+}
+.wrapper_product .arrows_product {
+  position: absolute;
+  bottom: 60px;
+  right: 368px;
+}
+.wrapper_product .arrows_product .arrows_pervious {
+  margin-bottom: 20px;
+  margin-left: 218px;
+}
+.wrapper_product .arrows_product .arrows_pervious .arrows_img {
+  display: flex;
+}
+.wrapper_product .arrows_product .arrows_pervious .arrows_img img:nth-child(1) {
+  margin-right: 20px;
+}
+.wrapper_product .arrows_product .arrows_pervious .arrows_img img:nth-child(2) {
+  margin-left: 20px;
+}
+.container_product {
+  height: 100vh;
+  min-height: 800px;
+  background-image: url('images/background_img.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.container_product .banner_product .contact_us {
+  margin-top: 125px;
+  text-align: center;
+}
+.container_product .banner_product .contact_us p:nth-child(1) {
+  font-size: 20px;
+  font-family: Source Han Sans CN;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+.container_product .banner_product .contact_us p:nth-child(2) {
+  font-size: 30px;
+  font-family: Source Han Sans CN;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+.container_product .banner_product .contact_us div {
+  margin: 0 auto;
+  width: 80px;
+  height: 1px;
+  background: #FFFFFF;
+}
+.container_product .banner_product .contact_us_middle {
+  margin-top: 35px;
+  display: flex;
+  font-size: 16px;
+  font-family: Source Han Sans CN;
+  font-weight: 400;
+  color: #FFFFFF;
+  justify-content: center;
+  align-items: center;
+}
+.container_product .banner_product .contact_us_middle div {
+  flex: 1 1 33.33%;
+  text-align: center;
+}
+.container_product .banner_product .contact_us_middle .contact_us_middle_flex {
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+}
+.container_product .banner_product .contact_us_middle .contact_us_middle_flex:last-child {
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
+}
+.container_product .banner_product .contact_us_foot {
+  margin-top: 35px;
+  font-size: 16px;
+  font-family: Source Han Sans CN;
+  font-weight: 400;
+  color: #FFFFFF;
+  text-align: center;
+}
+.container_product .banner_product .contact_us_foot p {
+  margin: 0;
+  padding: 0;
+}
+.container_product .banner_product .banner_product_header {
+  display: flex;
+  width: 100vw;
+  overflow: hidden;
+  padding-top: 150px;
+  align-items: center;
+  min-height: 174px;
+}
+.container_product .banner_product .banner_product_header .banner_product_img {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+.container_product .banner_product .banner_product_header .banner_product_text {
+  display: flex;
+  min-height: 174px;
+  align-items: center;
+  color: white;
+}
+.container_product .banner_product .banner_product_header .banner_product_text p {
+  margin-bottom: 0;
+}
+.container_product .banner_product .banner_product_header .banner_product_text .smart {
+  padding-bottom: 9px;
+  font-size: 30px;
+  font-family: Source Han Sans CN;
+  font-weight: bold;
+  color: #FFFFFF;
+  line-height: 30px;
+}
+.container_product .banner_product .banner_product_header .banner_product_text .smart_ {
+  padding-top: 15px;
+  font-size: 20px;
+  font-family: Source Han Sans CN;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 30px;
+}
+.container_product .banner_product .banner_product_header .banner_product_body {
+  margin-top: 112px;
+  width: 100%;
+}
+.banner_product_star {
+  display: flex;
+  width: 1660px;
+  margin: 0 auto;
+}
+.banner_product_star div {
+  margin-left: 40px;
+}
+.banner_product_star .campus_day {
+  margin-left: 0;
+  position: relative;
+}
+.banner_product_star .campus_day .rotate_back {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: rotateY(90deg);
+}
+.banner_product_star .campus_day:hover .rotate_back {
+  transform: rotateY(0deg);
+  transition: all 1s;
+}
+.banner_product_star .campus_day:hover .rotate {
+  transform: rotateY(90deg);
+  transition: all 1s;
+}
+.banner_product_star .action {
+  position: relative;
+}
+.banner_product_star .action .rotate_back {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: rotateY(90deg);
+}
+.banner_product_star .action:hover .rotate_back {
+  transform: rotateY(0deg);
+  transition: all 1s;
+}
+.banner_product_star .action:hover .rotate {
+  transform: rotateY(90deg);
+  transition: all 1s;
+}

@@ -1,0 +1,23 @@
+.container {
+  background-image: url('images/banner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.banner {
+  width: 1186px;
+  margin: 0 auto;
+  height: 100vh;
+}
+.banner .arrows {
+  align-self: flex-end;
+  margin: 0 auto;
+  width: 668px;
+}
+.banner .arrows .arrows_img {
+  overflow-y: hidden;
+  float: right;
+  margin-bottom: 80px;
+}

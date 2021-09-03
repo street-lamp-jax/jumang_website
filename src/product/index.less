@@ -1,0 +1,221 @@
+.wrapper_product {
+    position: relative;
+
+    .arrows_product {
+        position: absolute;
+        bottom: 60px;
+        right: 368px;
+
+        .arrows_pervious {
+            margin-bottom: 20px;
+            margin-left: 218px;
+
+            .arrows_img {
+                display: flex;
+
+                img:nth-child(1) {
+                    margin-right: 20px;
+                }
+
+                img:nth-child(2) {
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+}
+
+.container_product {
+    height: 100vh;
+    min-height: 800px;
+    // background-color: orange;
+    background-image: url('./images/background_img.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+    .banner_product {
+        .contact_us {
+            margin-top: 125px;
+            // margin: 0 auto;
+            text-align: center;
+
+            p:nth-child(1) {
+                font-size: 20px;
+                font-family: Source Han Sans CN;
+                font-weight: 400;
+                color: #FFFFFF;
+                margin-bottom: 15px;
+            }
+
+            p:nth-child(2) {
+                font-size: 30px;
+                font-family: Source Han Sans CN;
+                font-weight: bold;
+                color: #FFFFFF;
+                margin-bottom: 15px;
+            }
+
+            div {
+                margin: 0 auto;
+                width: 80px;
+                height: 1px;
+                background: #FFFFFF;
+            }
+        }
+
+        .contact_us_middle {
+            margin-top: 35px;
+            display: flex;
+            font-size: 16px;
+            font-family: Source Han Sans CN;
+            font-weight: 400;
+            color: #FFFFFF;
+            justify-content: center;
+            align-items: center;
+
+            div {
+                flex: 1 1 33.33%;
+                // flex: auto;
+                // padding: 0 40px;
+                text-align: center;
+
+            }
+
+            // div:nth-child(1){
+            //     margin-left: 0;
+            // }
+            .contact_us_middle_flex {
+                justify-content: flex-end;
+                display: flex;
+                align-items: center;
+            }
+
+            .contact_us_middle_flex:last-child {
+                justify-content: flex-start;
+                display: flex;
+                align-items: center;
+            }
+        }
+
+        .contact_us_foot {
+            margin-top: 35px;
+            font-size: 16px;
+            font-family: Source Han Sans CN;
+            font-weight: 400;
+            color: #FFFFFF;
+            text-align: center;
+            p{
+                margin: 0;
+                padding: 0;
+            }
+        }
+
+        .banner_product_header {
+            display: flex;
+            width: 100vw;
+            overflow: hidden;
+            padding-top: 150px;
+            align-items: center;
+            min-height: 174px;
+
+            .banner_product_img {
+                width: 50%;
+                float: left;
+                text-align: center;
+            }
+
+            .banner_product_text {
+                display: flex;
+                min-height: 174px;
+                // margin: auto 0;
+                align-items: center;
+                // float: right;
+                color: white;
+
+                p {
+                    margin-bottom: 0;
+                }
+
+                .smart {
+                    padding-bottom: 9px;
+                    font-size: 30px;
+                    font-family: Source Han Sans CN;
+                    font-weight: bold;
+                    color: #FFFFFF;
+                    line-height: 30px;
+                }
+
+                .smart_ {
+                    padding-top: 15px;
+                    font-size: 20px;
+                    font-family: Source Han Sans CN;
+                    font-weight: 400;
+                    color: #FFFFFF;
+                    line-height: 30px;
+                }
+            }
+
+            .banner_product_body {
+                margin-top: 112px;
+                width: 100%;
+
+            }
+        }
+    }
+}
+
+.banner_product_star {
+    display: flex;
+    width: 1660px;
+    margin: 0 auto;
+
+    div {
+        margin-left: 40px;
+    }
+
+    .campus_day {
+        margin-left: 0;
+        position: relative;
+
+        .rotate_back {
+            position: absolute;
+            left: 0;
+            top: 0;
+            transform: rotateY(90deg);
+        }
+    }
+
+    .campus_day:hover .rotate_back {
+        transform: rotateY(0deg);
+        transition: all 1s;
+    }
+
+    .campus_day:hover .rotate {
+        transform: rotateY(90deg);
+        transition: all 1s;
+    }
+
+    .action {
+        position: relative;
+
+        .rotate_back {
+            position: absolute;
+            left: 0;
+            top: 0;
+            transform: rotateY(90deg);
+        }
+    }
+
+    .action:hover .rotate_back {
+        transform: rotateY(0deg);
+        transition: all 1s;
+    }
+
+    .action:hover .rotate {
+        transform: rotateY(90deg);
+        transition: all 1s;
+    }
+}
